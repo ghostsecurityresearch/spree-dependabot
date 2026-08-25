@@ -163,3 +163,5 @@ Spree Commerce core code in the **[spree/spree](https://github.com/spree/spree)*
 If you like what you see, consider giving Spree a GitHub star :star:
 
 Thank you for supporting Spree open-source :heart:
+
+bump
