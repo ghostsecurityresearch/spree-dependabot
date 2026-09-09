@@ -46,7 +46,7 @@ group :development, :test do
   # Audits gems for known security defects (use config/bundler-audit.yml to ignore issues)
   gem "bundler-audit", require: false
 
-  # Static analysis for security vulnerabilities [https://github.com/presidentbeef/brakeman]
+  # Static analysis for security vulnerabilities [https://github.com/rails/brakeman]
   gem "brakeman", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
@@ -54,7 +54,7 @@ group :development, :test do
 end
 
 group :development do
-  # Use console on exceptions pages [https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-web-console]
+  # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
 gem "devise"
