@@ -7,7 +7,7 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 pin '@rails/actioncable', to: 'actioncable.esm.js', preload: ['application-spree-admin']
 pin '@rails/activestorage', to: 'activestorage.esm.js', preload: ['application-spree-admin']
 pin '@rails/actiontext', to: '@rails--actiontext@7.2.201.js', preload: ['application-spree-admin']
-pin 'trix', to: 'trix@2.1.15.js', preload: ['application-spree-admin']
+pin 'trix', to: 'trix.js', preload: ['application-spree-admin']
 
 pin 'sortablejs', preload: ['application-spree-admin'] # @1.15.6
 pin 'chartkick', to: 'chartkick.js', preload: ['application-spree-admin']
@@ -72,9 +72,8 @@ pin '@uppy/utils/lib/isDragDropSupported',
     preload: ['application-spree-admin']
 pin '@uppy/utils/lib/isObjectURL', to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/isObjectURL.js', preload: ['application-spree-admin']
 pin '@uppy/utils/lib/isPreviewSupported',
-    to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/isPreviewSupported.js',
-    preload: ['application-spree-admin']
-pin '@uppy/utils/lib/prettyETA', to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/prettyETA.js', preload: ['application-spree-admin']
+    to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/isPreviewSupported.js', preload: ['application-spree-admin']
+pin '@uppy/utils/lib/prettyETA', to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/prettyBytes.js', preload: ['application-spree-admin']
 pin '@uppy/utils/lib/remoteFileObjToLocal',
     to: 'https://ga.jspm.io/npm:@uppy/utils@6.1.1/lib/remoteFileObjToLocal.js',
     preload: ['application-spree-admin']
@@ -87,12 +86,12 @@ pin 'exifr/dist/mini.esm.mjs', to: 'https://ga.jspm.io/npm:exifr@7.1.3/dist/mini
 pin 'lodash/throttle.js', to: 'https://ga.jspm.io/npm:lodash@4.17.21/throttle.js', preload: ['application-spree-admin']
 pin 'lodash/debounce.js', to: 'https://ga.jspm.io/npm:lodash@4.17.21/debounce.js', preload: ['application-spree-admin']
 pin 'lodash/merge.js', to: 'https://ga.jspm.io/npm:lodash@4.17.21/merge.js', preload: ['application-spree-admin']
-pin 'memoize-one', to: 'https://ga.jspm.io/npm:memoize-one@6.0.0/dist/memoize-one.esm.js', preload: ['application-spree-admin']
+pin 'memoize-one', to: 'https://ga.jspm.io/npm:memoize-one@6.0.0/dist/index.js', preload: ['application-spree-admin']
 pin 'mime-match', to: 'https://ga.jspm.io/npm:mime-match@1.0.2/index.js', preload: ['application-spree-admin']
-pin 'namespace-emitter', to: 'https://ga.jspm.io/npm:namespace-emitter@2.0.1/index.js', preload: ['application-spree-admin']
-pin 'nanoid/non-secure', to: 'https://ga.jspm.io/npm:nanoid@5.0.9/non-secure/index.js', preload: ['application-spree-admin']
-pin 'p-queue', to: 'https://ga.jspm.io/npm:p-queue@8.0.1/dist/index.js', preload: ['application-spree-admin']
-pin 'p-timeout', to: 'https://ga.jspm.io/npm:p-timeout@6.1.4/index.js', preload: ['application-spree-admin']
+pin 'namespace-emitter', to: 'https://ga.jspm.io/npm:namespace-emitter@2.0.0/index.js', preload: ['application-spree-admin']
+pin 'nanoid/non-secure', to: 'https://ga.jspm.io/npm:nanoid@5.0.7/non-secure/index.js', preload: ['application-spree-admin']
+pin 'p-queue', to: 'https://ga.jspm.io/npm:p-queue@8.1.0/dist/index.js', preload: ['application-spree-admin']
+pin 'p-timeout', to: 'https://ga.jspm.io/npm:p-timeout@6.1.3/index.js', preload: ['application-spree-admin']
 pin 'preact', to: 'https://ga.jspm.io/npm:preact@10.25.4/dist/preact.module.js', preload: ['application-spree-admin']
 pin 'preact/hooks', to: 'https://ga.jspm.io/npm:preact@10.25.4/hooks/dist/hooks.module.js', preload: ['application-spree-admin']
 pin 'shallow-equal', to: 'https://ga.jspm.io/npm:shallow-equal@3.1.0/dist/index.modern.mjs', preload: ['application-spree-admin']
