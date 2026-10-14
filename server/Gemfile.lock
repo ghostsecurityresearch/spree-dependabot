@@ -220,7 +220,7 @@ GEM
     base64 (0.3.0)
     bcrypt (3.1.21)
     benchmark (0.5.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.3)
     bindex (0.8.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
@@ -477,7 +477,7 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    oj (3.16.15)
+    oj (3.17.3)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     orm_adapter (0.5.0)
@@ -889,7 +889,7 @@ CHECKSUMS
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bcrypt (3.1.21) sha256=5964613d750a42c7ee5dc61f7b9336fb6caca429ba4ac9f2011609946e4a2dcf
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
-  bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
+  bigdecimal (4.1.3) sha256=61ebe1e5e559bdc3cc6f2c0ee7f427321fc838f59611c294356eb04d6e21cf66
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
   bootsnap (1.23.0) sha256=c1254f458d58558b58be0f8eb8f6eec2821456785b7cdd1e16248e2020d3f214
   brakeman (8.0.2) sha256=7b02065ce8b1de93949cefd3f2ad78e8eb370e644b95c8556a32a912a782426a
@@ -1008,7 +1008,7 @@ CHECKSUMS
   nokogiri (1.19.1-x86_64-linux-gnu) sha256=1a4902842a186b4f901078e692d12257678e6133858d0566152fe29cdb98456a
   nokogiri (1.19.1-x86_64-linux-musl) sha256=4267f38ad4fc7e52a2e7ee28ed494e8f9d8eb4f4b3320901d55981c7b995fc23
   octokit (4.25.1) sha256=c02092ee82dcdfe84db0e0ea630a70d32becc54245a4f0bacfd21c010df09b96
-  oj (3.16.15) sha256=4d3324cac3e8fef54c0fa250b2af26a16dadd9f9788a1d6b1b2098b793a1b2cd
+  oj (3.17.3) sha256=ebe3967b0bb7ac4f206561d0d9ac8875b9973f778600d7b61b5c355662a707ed
   orm_adapter (0.5.0) sha256=aa5d0be5d540cbb46d3a93e88061f4ece6a25f6e97d6a47122beb84fe595e9b9
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   pagy (43.2.10) sha256=494539ede5ca15e8a59c621f6ea89233cd0e3e142e34b2d9b2726b6dd14bc980
